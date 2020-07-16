@@ -20,15 +20,21 @@ There are 3 things that take my attention:
 
 Let's look at the value_counts for our target variable:
 
-[Churn](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/churn.PNG)
+[https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/churn.PNG](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/churn.PNG)
 
 Number of Customers Leaving:  58
 Number of Customers Staying :  142
 
 Let's visualize the other features using a box_plot:
 
-[Box_plot](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/box_pl.PNG)
+[https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/box_pl.PNG](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/box_pl.PNG)
 
 Some of the features from the plot look quite similar so I decide to check the correlation and drop those features if the correlation is > 0.9.
 
-[Heatmap_correlation]()
+[https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/corr_matrix.PNG](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/corr_matrix.PNG)
+
+Let's check feature importances using random forest:
+
+[https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/feat_imp.PNG](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/feat_imp.PNG)
+
+[https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/results.PNG](https://raw.githubusercontent.com/illumi91/Customer_Churn_Feature_Selection/master/images_readme/results.PNG)
